@@ -1,0 +1,62 @@
+.containerList {
+    width: 550px;
+    margin: -50px auto 0 500px;
+}
+
+.scrollableContacts {
+    padding-top: 85px;
+    height: 220px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #b7b7b7;
+    border-radius: 25px;
+    background-color: #f3f3f3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.text {
+    display: flex;
+    margin-top: 8px;
+}
+
+.text p{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.pIcon{
+    margin-top: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #ec5505;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons{
+    display: flex;
+    margin-right: 10px;
+}
+
+.iconBtn {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    background: #ea7c41;
+}
+
+.iconBtn:hover {
+    color: #ea7c41;
+}
+
