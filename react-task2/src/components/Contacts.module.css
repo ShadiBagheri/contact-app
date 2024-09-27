@@ -47,9 +47,17 @@ input {
 
 .search{
     position: absolute;
-    width: 320px;
+    width: 200px;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 145px;
+}
+
+.deleteBtn{
+    position: absolute;
+    width: 70px;
+    height: 35px;
+    margin-top: -130px;
+    margin-left: 940px;
 }
 
 button {
